@@ -1,0 +1,40 @@
+body
+{
+  background: linear-gradient(to right, #ACB6E5, #74ebd5);
+  border: 0px;
+}
+h1, h2, h3, h4{
+  color: rgb(33, 33, 33); 
+  text-align: center;
+}
+.content
+{
+  width: 40%;
+  height: 100%;
+  margin:0 auto;
+  background: white;
+  border-radius: 5px;
+}
+.button
+{
+    background: rgb(0, 0, 0);
+    width: 40%;
+    border: 0px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+    vertical-align: middle;
+}
+.button:hover
+{
+    background: #ACB6E5;
+    color: rgb(65, 65, 65);
+}
+.profile
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
+}
