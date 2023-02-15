@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components
+{
+    .btn
+    {
+        @apply text-base font-normal w-48 bg-[#271138] border border-[#271138] text-white py-2 px-6 my-3 rounded-md hover:bg-transparent hover:text-[#271138] hover:duration-500;
+    }
+}
